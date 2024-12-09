@@ -1,4 +1,4 @@
-
+//FIRST CHALLENGE
 document.quertSelector('h1').innerHTML = 'Hora do Desafio.';
 
 function botaoClicado() {
@@ -20,4 +20,29 @@ function soma() {
     let n2 = prompt('Digite o segundo número');
 
     alert(`A resultado da soma desses numeros é ${n1 + n2}`)
+}
+
+//SECOND CHALLENGE
+function helloWorld() {
+    console.log('Olá, Mundo!')
+}
+
+function greeting(nome) {
+    console.log(`Olá, ${nome}!`)
+}
+
+function double(number) {
+    return parseInt(number * 2)
+}
+
+function averege(numberA, numberB, numberC) {
+    return (numberA + numberB + numberC) / 3;
+}
+
+function max(numberA, numberB) {
+    return numberA > numberB ? numberA : numberB;
+}
+
+function square(number) {
+    return number * number;
 }
